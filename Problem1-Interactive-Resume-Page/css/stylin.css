@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(235, 243, 243);
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 4vw;
+    justify-content: space-between;
+}
+
+.article-container {
+    display: flex;
+    width: 40%;
+    height: max-content;
+    flex-direction: column;
+    background-color: rgb(160, 152, 145);
+    padding: 3%;
+    margin-left: auto;
+    align-items: center;
+}
+
+.article {
+    background-color: rgb(245, 232, 220);
+    padding: 5%;
+}
+
+img{
+    width: 60%;
+    display: flex;
+}
+
+header {
+    background-color: rgb(186, 199, 211);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+iframe{
+    display: flex;
+    width: 40%;
+}
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: 90%;
+    align-items: center;
+    margin: 0;
+}
+
+section{
+    display: flex;
+    width: 80%;
+    height: max-content;
+    flex-direction: column;
+    background-color: rgb(160, 152, 145);
+    padding: 1%;
+    align-items: center;
+    margin: 0;
+}
+
+section ul{
+    list-style: none;
+    background-color: rgb(245, 232, 220) ;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(198, 236, 236);
+    padding: 1%;
+    margin: 0;
+    width: 80%;
+    margin-top: 2vw;
+    align-self: center;
+}
+
+footer{
+    background-color: antiquewhite;
+    width: 100%;
+    margin: 0;
+    height: 2vw;
+}
+
